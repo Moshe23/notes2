@@ -4,11 +4,10 @@ div#home {
     background: #b7abab;;
     text-align: center;
     color: white;
-    margin-top: 100px;
+    margin-top: 300px;
+    float:left;
     padding: 40px;
-    border-radius: 100%;
-    
-     
+   
 }
 p {
     margin: auto;
@@ -18,4 +17,23 @@ p {
     text-align: center;
     color: wheat;
     width: 300px;
+}
+.content{
+    width: 800px;
+    margin:auto;
+}
+.note{
+    width: 200px;
+    float:left;
+    border:10px solid gray;
+    margin-right: 10px;
+}
+.note_title{
+    min-height:20px;
+    padding:5px;
+    border-bottom: 5px solid hotpink;
+}
+.note_body{
+    min-height: 100px;
+    padding: 5px;
 }
