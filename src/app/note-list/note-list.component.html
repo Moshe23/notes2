@@ -1,4 +1,8 @@
-<p>
-  note-list works!
-</p>
+<div class="content">
+  <div class="note" *ngFor="let note of notes">
+  
+    <div class=note_title>{{note.title}}</div>
+    <div class=note_body>{{note.body}}</div>
+  </div>
+</div>
 <div id="home" [routerLink]="['']">HOME</div>

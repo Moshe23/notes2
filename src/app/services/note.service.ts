@@ -20,13 +20,18 @@ export class NoteService {
     },
     {
       id: 3, title: "invite guests for dinner"
-      , body: "Moshe and keren"
+      , body: "keren & Moshe"
     }
   ]
   constructor() { }
   public load(): Observable<Note[]> {
-    return of(this.notes);
+    return of (this.notes);
   }
+  public add(note:Note){
+    note.id = this.id_counter++;
+    this.notes.push(note);
+  }
+
  
 
 }
