@@ -1,0 +1,21 @@
+div#home {
+    margin: auto;
+    width: 50px;
+    background: #b7abab;;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 100%;
+    
+     
+}
+p {
+    margin: auto;
+    margin-top: 130px;
+    font-size: 44px;
+    background-color: palevioletred;
+    text-align: center;
+    color: wheat;
+    width: 300px;
+}
